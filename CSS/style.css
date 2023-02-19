@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    /* outline: 2px solid white; */
+    background-color: black;
+    background-image: url("hp.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right top;
+    /* background-attachment: fixed; */
+    background-attachment: scroll;
+}
+.container
+{
+    /* background-color: red; */
+    color: white;
+    border: 2px solid white;
+    line-height: 2.5;
+    /* text-decoration:underline; */
+    /* text-indent: 5px; */
+}
+h1,h2,p{
+    color: white;
+}
+.foot{
+    /* background-color: rgb(222, 247, 6); */
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    /* border-style: inset; */
+    border-left: 8px solid rgb(48, 176, 226);
+    border-right: 8px solid rgb(48, 176, 226);
+    text-align: center;
+}
+p{
+    margin-top: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a:link{
+    color: White;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color:hotpink;
+}
+a:visited{
+    color: blue;
+}
+a{
+    cursor: pointer;
+}
+::selection{
+    color: blue;
+    background-color: grey;
+}
+/* h1::before{
+    
+    content: url("logo.webp");
+} */

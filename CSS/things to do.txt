@@ -1,0 +1,8 @@
+position,z in,flex,psedo,image bg,object fit,float both
+upto object-position+flexbox
+
+Done: 
+1) Position
+2) Z-index
+3) Pseudo
+4) Image background

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            position: relative;
+            text-decoration: none;
+            display: inline;
+            padding: 20px;
+            top: 13px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        header {
+            background-color: black;
+            height: 50px;
+        }
+
+        a:hover {
+            color: hotpink;
+            font-size: 25px;
+        }
+        
+        a:active {
+            color: blue;
+        }
+
+        /* a:visited{
+            color: green;
+        } */
+        .foot {
+            text-align: center;
+            background-color: grey;
+            border-left: 8px solid rgb(48, 176, 226);
+            border-right: 8px solid rgb(48, 176, 226);
+            margin: 25px;
+            padding: 20px;
+            font-weight: bold;
+        }
+        p{
+            display: none;
+            color: red;
+            background-color: yellow;
+            height: 50px;
+        }
+        div:hover p{
+            display: block;
+        }
+        p::first-letter{
+            color: blue;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        main{
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <Header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <main>
+        Hello this is main.
+        <div>Hover Here to find
+        <p>Tada! I'am Here.</p>
+    </div>
+    </main>
+    <footer class="foot">
+        Copyright &#169; All rights reserved
+    </footer>
+</body>
+
+</html>
